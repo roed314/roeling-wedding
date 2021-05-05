@@ -1,0 +1,1269 @@
+@font-face {
+    font-family: "savoye";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/SavoyeLET.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "neuton";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Neuton-Regular.eot");
+  src: url("../fonts/Neuton-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Neuton-Regular.woff") format("woff"), url("../fonts/Neuton-Regular.ttf") format("truetype"), url("../fonts/Neuton-Regular.svg#neuton") format("svg");
+}
+
+@font-face {
+  font-family: "brandon";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Brandon-Grotesque-Medium.eot");
+  src: url("../fonts/Brandon-Grotesque-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Brandon-Grotesque-Medium.woff") format("woff"), url("../fonts/Brandon-Grotesque-Medium.ttf") format("truetype"), url("../fonts/Brandon-Grotesque-Medium.svg#brandon") format("svg");
+}
+
+/* CONFIG */
+/* sprites */
+/* line 258, heading/*.png */
+/*
+.heading-sprite, .heading-add-to-our-story, .heading-amazon, .heading-americas-finest-city, .heading-book-by-phone, .heading-book-online, .heading-bridesmaides, .heading-crate-and-barrel, .heading-festivities, .heading-groomsmen, .heading-header, .heading-history-2007, .heading-history-2008, .heading-history-2009, .heading-history-2010, .heading-history-2011, .heading-history-2012, .heading-history-2013, .heading-hotel-indigo, .heading-love-small, .heading-meet-the-bridesmaides-over, .heading-meet-the-bridesmaides, .heading-meet-the-groomsmen-over, .heading-meet-the-groomsmen, .heading-registry, .heading-rest-your-head, .heading-to-do, .heading-to-eat, .heading-west-elm {
+  background: url('../img/heading-s0fb21cda38.png') no-repeat;
+}
+
+.heading-add-to-our-story {
+  background-position: 0 -540px;
+  height: 78px;
+  width: 637px;
+}
+
+.heading-amazon {
+  background-position: 0 -3537px;
+  height: 108px;
+  width: 161px;
+}
+
+.heading-americas-finest-city {
+  background-position: 0 -628px;
+  height: 78px;
+  width: 733px;
+}
+
+.heading-book-by-phone {
+  background-position: 0 -1312px;
+  height: 191px;
+  width: 160px;
+}
+
+.heading-book-online {
+  background-position: 0 -1685px;
+  height: 191px;
+  width: 161px;
+}
+
+.heading-bridesmaides {
+  background-position: 0 -3179px;
+  height: 50px;
+  width: 361px;
+}
+
+.heading-crate-and-barrel {
+  background-position: 0 -3301px;
+  height: 108px;
+  width: 161px;
+}
+
+.heading-festivities {
+  background-position: 0 -999px;
+  height: 126px;
+  width: 449px;
+}
+
+.heading-groomsmen {
+  background-position: 0 -3239px;
+  height: 52px;
+  width: 346px;
+}
+
+.heading-header {
+  background-position: 0 0;
+  height: 530px;
+  width: 905px;
+}
+
+.heading-history-2007 {
+  background-position: 0 -804px;
+  height: 185px;
+  width: 258px;
+}
+
+.heading-history-2008 {
+  background-position: 0 -1135px;
+  height: 167px;
+  width: 287px;
+}
+
+.heading-history-2009 {
+  background-position: 0 -2745px;
+  height: 163px;
+  width: 210px;
+}
+
+.heading-history-2010 {
+  background-position: 0 -2918px;
+  height: 163px;
+  width: 193px;
+}
+
+.heading-history-2011 {
+  background-position: 0 -1513px;
+  height: 162px;
+  width: 262px;
+}
+
+.heading-history-2012 {
+  background-position: 0 -2042px;
+  height: 163px;
+  width: 238px;
+}
+
+.heading-history-2013 {
+  background-position: 0 -2371px;
+  height: 163px;
+  width: 202px;
+}
+
+.heading-hotel-indigo {
+  background-position: 0 -2544px;
+  height: 191px;
+  width: 203px;
+}
+
+.heading-love-small {
+  background-position: 0 -4047px;
+  height: 17px;
+  width: 105px;
+}
+
+.heading-meet-the-bridesmaides-over {
+  background-position: 0 -1886px;
+  height: 146px;
+  width: 361px;
+}
+
+.heading-meet-the-bridesmaides {
+  background-position: 0 -3655px;
+  height: 146px;
+  width: 361px;
+}
+
+.heading-meet-the-groomsmen-over {
+  background-position: 0 -2215px;
+  height: 146px;
+  width: 346px;
+}
+
+.heading-meet-the-groomsmen {
+  background-position: 0 -3811px;
+  height: 146px;
+  width: 346px;
+}
+
+.heading-registry {
+  background-position: 0 -3091px;
+  height: 78px;
+  width: 406px;
+}
+
+.heading-rest-your-head {
+  background-position: 0 -716px;
+  height: 78px;
+  width: 596px;
+}
+
+.heading-to-do {
+  background-position: 0 -3967px;
+  height: 30px;
+  width: 197px;
+}
+
+.heading-to-eat {
+  background-position: 0 -4007px;
+  height: 30px;
+  width: 203px;
+}
+
+.heading-west-elm {
+  background-position: 0 -3419px;
+  height: 108px;
+  width: 161px;
+}
+*/
+
+/* line 106, icn/*.png */
+.icn-sprite, .icn-back, .icn-bridal-party, .icn-history-close, .icn-history-more, .icn-indicator-off, .icn-indicator-on, .icn-live-map, .icn-slideshow-left, .icn-slideshow-right {
+  background: url('../img/icn-s899ef60716.png') no-repeat;
+}
+
+.icn-back {
+  background-position: 0 -348px;
+  height: 226px;
+  width: 206px;
+}
+
+.icn-bridal-party {
+  background-position: 0 0;
+  height: 338px;
+  width: 302px;
+}
+
+.icn-history-close {
+  background-position: 0 -962px;
+  height: 69px;
+  width: 69px;
+}
+
+.icn-history-more {
+  background-position: 0 -663px;
+  height: 69px;
+  width: 69px;
+}
+
+.icn-indicator-off {
+  background-position: 0 -1066px;
+  height: 15px;
+  width: 15px;
+}
+
+.icn-indicator-on {
+  background-position: 0 -1041px;
+  height: 15px;
+  width: 15px;
+}
+
+.icn-live-map {
+  background-position: 0 -584px;
+  height: 69px;
+  width: 69px;
+}
+
+.icn-slideshow-left {
+  background-position: 0 -852px;
+  height: 100px;
+  width: 55px;
+}
+
+.icn-slideshow-right {
+  background-position: 0 -742px;
+  height: 100px;
+  width: 55px;
+}
+
+/* VARIABLES */
+/* colors */
+/* type */
+/* MIXINS */
+/* ==========================================================================
+HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+========================================================================== */
+/* line 67, ../sass/screen.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+/* line 71, ../sass/screen.scss */
+a {
+  text-decoration: underline;
+}
+
+/* line 75, ../sass/screen.scss */
+a:hover {
+  filter: alpha(opacity=90);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  -moz-opacity: 0.9;
+  -khtml-opacity: 0.9;
+  opacity: 0.9;
+}
+
+/* line 79, ../sass/screen.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 84, ../sass/screen.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 89, ../sass/screen.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 98, ../sass/screen.scss */
+img {
+  vertical-align: middle;
+}
+
+/* line 102, ../sass/screen.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 108, ../sass/screen.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 112, ../sass/screen.scss */
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+Judie and Z Styles
+========================================================================== */
+/* ICONS/BUTTONS SPRITES */
+/* line 127, ../sass/screen.scss */
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline-block;
+  margin: 0 3px;
+  *margin-right: .3em;
+  line-height: 14px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+}
+
+/* GLOBAL LAYOUT */
+/* line 139, ../sass/screen.scss */
+body {
+  /* font-family: "neuton", serif; */
+  font-size: 14px;
+  font-size: 1rem;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  background: #3d2e4d;
+  color: #1a1a37;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+/* line 149, ../sass/screen.scss */
+h1 {
+  font-size: 46px;
+  font-size: 3.28571rem;
+  margin: 30px 0 40px;
+  text-align: center;
+}
+
+/* line 155, ../sass/screen.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 160, ../sass/screen.scss */
+.container {
+  max-width: 1280px;
+  min-width: 770px;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  position: relative;
+  padding-top: 359px;
+}
+.ocontainer { /* container for pages without full sunset header */
+  max-width: 1280px;
+  min-width: 770px;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  position: relative;
+}
+/* line 167, ../sass/screen.scss */
+.touch .container {
+  padding-top: 0;
+}
+.text-area {
+  max-width: 640px;
+  margin: 0 auto;
+}
+.map-frame {
+  background: #c7d7c9;
+  margin: 10px 0px auto;
+  padding: 30px;
+}
+.map-inner {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  height: 0;
+  text-align: center;
+  padding-bottom: 56.25%;
+}
+.map-inner iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.map-inner img {
+  padding-bottom: 56.25%;
+  top: 0;
+  height: 100%;
+  position: absolute;
+}
+.pmap {
+  left: 9.4%;
+}
+.cmap {
+  left: 23.6%;
+}
+
+.map-container {
+  margin: 0 auto;
+}
+
+div.opaque {
+  background: #3d2e4d;
+}
+
+.text-container {
+  background: #c7d7c9;
+  margin: 10px 0px;
+  padding-bottom: 30px;
+}
+.top-spaced {
+  margin-top: 65px;
+}
+.img-container {
+  text-align: center;
+  margin: 10px auto;
+}
+.pic-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.img-block {
+  margin: 0px 10px;
+  display: inline-block;
+}
+
+section.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
+.gallery-pic {
+  max-width: 100%;
+  min-width: 770px;
+}
+.cabin-pic {
+  margin: 10px;
+  height: 200px;
+  display: inline-block;
+  flex-basis: auto;
+}
+.activity-pic {
+  height: 300px;
+}
+venue-pic
+.caption {
+  margin: 10px;
+}
+.centered-pic {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  display: block;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -105px;
+    visibility: hidden;
+}
+#ournames {
+  font-family: "savoye", sans-serif;
+  font-size: 72px;
+  color: #3d2e4d;
+  position: absolute;
+  top: 6px;
+  left: 600px;
+}
+#ourlocation {
+  font-family: "savoye", sans-serif;
+  font-size: 42px;
+  color: #3d2e4d;
+  position: absolute;
+  top: 6px;
+  left: 640px;
+}
+#ourdate {
+  font-family: "savoye", sans-serif;
+  font-size: 42px;
+  color: #3d2e4d;
+  position: absolute;
+  top: 50px;
+  left: 680px;
+}
+#closingwishes {
+  font-family: "savoye", sans-serif;
+  font-size: 72px;
+  color: #fff;
+  position: absolute;
+  top: 63%;
+  left: 42%;
+}
+
+/* line 172, ../sass/screen.scss */
+.container section {
+  overflow: hidden;
+  *zoom: 1;
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 181, ../sass/screen.scss */
+.wrapper {
+  overflow: hidden;
+  *zoom: 1;
+  width: 760px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+/* line 188, ../sass/screen.scss */
+.wrapper h2 {
+  margin: 80px 0 0 0;
+}
+/* line 192, ../sass/screen.scss */
+.wrapper h2, .wrapper h3 {
+  display: inline-block;
+}
+/* line 195, ../sass/screen.scss */
+.ie7 .wrapper h2, .ie7 .wrapper h3 {
+  display: block;
+  margin-left: 30%;
+}
+
+/* line 202, ../sass/screen.scss */
+#navigation {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 65px;
+  left: 0px;
+  width: 100%;
+  height: 51px;
+  line-height: 51px;
+  background: #3d2e4d;
+  z-index: 6;
+}
+/* line 212, ../sass/screen.scss */
+#navigation ul {
+  overflow: hidden;
+  *zoom: 1;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+/* line 218, ../sass/screen.scss */
+#navigation ul li {
+  display: inline;
+  margin-right: 20px;
+}
+/* line 222, ../sass/screen.scss */
+#navigation ul li.last {
+  margin: 0;
+}
+/* line 228, ../sass/screen.scss */
+#navigation a {
+  /* font-family: "brandon", sans-serif; */
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  letter-spacing: 1px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+/* line 238, ../sass/screen.scss */
+#navigation li.rsvp a {
+  background: #ffdc73;
+  color: #3d2e4d;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+div.headertop {
+    display: block;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    margin-left: -640px;
+    height: 65px;
+    max-width: 1280px;
+    min-width: 770px;
+    z-index: 6;
+}
+div.headertop img {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+div.headerbot {
+    display: block;
+    position: fixed;
+    left: 50%;
+    top: 65px;
+    margin-left: -640px;
+    height: 294px;
+    max-width: 1280px;
+    min-width: 770px;
+    z-index: -2;
+}
+div.headerbot img {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* line 243, ../sass/screen.scss */
+#home {
+  display: block;
+  position: fixed;
+  left: 50%;
+  top: 0;
+  margin-left: -640px;
+  height: 359px;
+  width: 1280px;
+  z-index: -2;
+}
+/* line 252, ../sass/screen.scss */
+#home .image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: url(../img/bg/header-low.jpg) no-repeat left top;
+  /* Need to add header-high.jpg */
+  z-index: 1;
+}
+
+/* line 282, ../sass/screen.scss */
+.touch #home {
+  position: relative;
+}
+
+/* line 287, ../sass/screen.scss */
+#gallery-sec {
+  
+  z-index: 2;
+}
+/* line 291, ../sass/screen.scss */
+#gallery-sec .carousel-inner {
+  height: 100%;
+  padding-bottom: 59.08%;
+}
+/* line 295, ../sass/screen.scss */
+/*#gallery-sec .carousel-indicators {
+  display: none;
+}*/
+/* line 299, ../sass/screen.scss */
+#gallery-sec .item {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+/* line 304, ../sass/screen.scss */
+#gallery-sec .item > img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+/* line 313, ../sass/screen.scss */
+#gallery-sec .icn-history-more {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 45.5%;
+  margin-left: -34px;
+  text-indent: -9999px;
+}
+/* line 321, ../sass/screen.scss */
+#gallery-sec .icn-history-close {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-top: 75.5%;
+  margin-left: -34px;
+  text-indent: -9999px;
+}
+/* line 326, ../sass/screen.scss */
+.ie7 #gallery-sec .icn-history-close {
+  display: block;
+  margin-left: 40%;
+}
+/* line 332, ../sass/screen.scss */
+#gallery-sec .info {
+  position: absolute;
+  top: 770px;
+  left: 45%;
+  width: 60%;
+  padding-bottom: 50%;
+  margin: 0 0 0 -25%;
+  background: #fff;
+  box-shadow: 0px 0px 15px 0px black;
+  text-align: center;
+}
+#gallery-sec .blurb {
+  height: 100%;
+}
+/* line 343, ../sass/screen.scss */
+#gallery-sec .info h3 {
+  margin-top: 10%;
+  display: inline-block;
+}
+/* line 347, ../sass/screen.scss */
+.ie7 #gallery-sec .info h3 {
+  display: block;
+  margin-left: 30%;
+}
+/* line 353, ../sass/screen.scss */
+#gallery-sec .info p {
+  width: 450px;
+  margin: 0 auto 10px;
+}
+#gallery-sec .lyrics {
+  text-align: left;
+  margin-left: 20px;
+}
+#gallery-sec .song-attr {
+  text-align: right;
+  margin-right: 10px;
+}
+/* line 358, ../sass/screen.scss */
+#gallery-sec .info img {
+  display: block;
+}
+
+#footer {
+  max-width: 1280px;
+  min-width: 770px;
+}
+
+.mtn-left {
+  width: 200px;
+  margin-right: 60px;
+}
+.mtn-right {
+  width: 200px;
+  margin-left: 60px;
+}
+
+#festivities-sec .item {
+  width: 780px;
+  height: 600px;
+  margin: 20px 80px;
+  background: #fdfbe2;
+}
+.text-container h2 {
+  font-family: "savoye", sans-serif;
+  padding-top: 10px;
+  font-size: 96px;
+  text-align: center;
+  margin: 5px 0px;
+}
+.text-area h3 {
+  font-family: "savoye", sans-serif;
+  padding-top: 10px;
+  font-size: 48px;
+  text-align: left;
+  margin: 5px 0px auto;
+}
+.text-area h4 {
+  font-family: "savoye", sans-serif;
+  font-weight: bold;
+  padding-top: 0px;
+  font-size: 28px;
+  text-align: left;
+  margin: 0px auto;
+  line-height: 0.7;
+}
+.text-area p {
+  margin: 0px 0px 30px 20px;
+}
+.text-area ul {
+  margin: 0px 0px 30px 20px;
+}
+.text-container a, .text-container a:visited {
+  color: #b71c1c;
+}
+/* line 619, ../sass/screen.scss */
+#festivities-sec .item p {
+  margin: 100px;
+}
+#festivities-sec .item ul {
+  margin: 100px;
+}
+/* line 626, ../sass/screen.scss */
+#festivities-sec .item a {
+  color: #0000ff;
+  text-decoration: none;
+}
+/* line 632, ../sass/screen.scss */
+#festivities-sec .icn-history-close {
+  display: block;
+  position: absolute;
+  right: 605px;
+  bottom: 50px;
+  margin-left: -35px;
+  text-indent: -9999px;
+}
+/* line 640, ../sass/screen.scss */
+.ie7 #festivities-sec .icn-history-close {
+  display: block;
+  margin-left: 45%;
+}
+/* line 646, ../sass/screen.scss */
+#festivities-sec .icn-live-map {
+  display: block;
+  position: absolute;
+  right: 605px;
+  bottom: 50px;
+  text-indent: -9999px;
+  z-index: 3;
+}
+
+/* line 656, ../sass/screen.scss */
+#quote {
+  height: 615px;
+  position: relative;
+}
+/* line 660, ../sass/screen.scss */
+#quote img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+/* line 667, ../sass/screen.scss */
+#quote .info {
+  position: absolute;
+  z-index: 2;
+  top: -500px;
+  left: 50%;
+  width: 820px;
+  margin-left: -410px;
+  border: 20px solid #cccccc;
+  border: 20px solid rgba(255, 255, 255, 0.3);
+}
+/* line 678, ../sass/screen.scss */
+.touch #quote .info {
+  top: 120px;
+}
+/* line 682, ../sass/screen.scss */
+#quote .info p {
+  background: #fff;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  color: #666;
+  line-height: 1.8;
+  font-size: 18px;
+  font-size: 1.28571rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 694, ../sass/screen.scss */
+#quote .info span {
+  display: block;
+  margin-top: 15px;
+  color: #a29061;
+  text-transform: none;
+}
+
+/* Bootstrap carousel styles */
+/* line 838, ../sass/screen.scss */
+.carousel {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* line 843, ../sass/screen.scss */
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 849, ../sass/screen.scss */
+.carousel-inner > .item {
+  position: relative;
+  display: none;
+  -webkit-transition: 0.6s ease-in-out left;
+  -moz-transition: 0.6s ease-in-out left;
+  -o-transition: 0.6s ease-in-out left;
+  transition: 0.6s ease-in-out left;
+}
+
+/* line 859, ../sass/screen.scss */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  line-height: 1;
+}
+
+/* line 866, ../sass/screen.scss */
+.carousel-inner > .active,
+.carousel-inner > .next,
+.carousel-inner > .prev {
+  display: block;
+}
+
+/* line 870, ../sass/screen.scss */
+.carousel-inner > .active {
+  left: 0;
+}
+
+/* line 875, ../sass/screen.scss */
+.carousel-inner > .next,
+.carousel-inner > .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* line 881, ../sass/screen.scss */
+.carousel-inner > .next {
+  left: 100%;
+}
+
+/* line 885, ../sass/screen.scss */
+.carousel-inner > .prev {
+  left: -100%;
+}
+
+/* line 890, ../sass/screen.scss */
+.carousel-inner > .next.left,
+.carousel-inner > .prev.right {
+  left: 0;
+}
+
+/* line 894, ../sass/screen.scss */
+.carousel-inner > .active.left {
+  left: -100%;
+}
+
+/* line 898, ../sass/screen.scss */
+.carousel-inner > .active.right {
+  left: 100%;
+}
+
+/* line 902, ../sass/screen.scss */
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  margin-top: -50px;
+  filter: alpha(opacity=50);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  text-indent: -9999px;
+}
+
+/* line 911, ../sass/screen.scss */
+.carousel-control.right {
+  right: 30px;
+  left: auto;
+}
+
+/* line 917, ../sass/screen.scss */
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #ffffff;
+  text-decoration: none;
+  filter: alpha(opacity=90);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  -moz-opacity: 0.9;
+  -khtml-opacity: 0.9;
+  opacity: 0.9;
+}
+
+.carousel-container {
+  position: absolute;
+  width: 24.5%;
+  height: 1.328%;
+  top: 94%;
+  left: 37.75%;
+}
+
+/* line 923, ../sass/screen.scss */
+.carousel-indicators {
+  margin: 0;
+  list-style: none;
+  z-index: 5;
+  height: 100%;
+}
+
+/* line 932, ../sass/screen.scss */
+.carousel-indicators li {
+  display: block;
+  float: left;
+  width: 3.189%;
+  height: 100%;
+  margin-left: 4.783%;
+  text-indent: -999px;
+  background-color: #ccc;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* line 945, ../sass/screen.scss */
+.carousel-indicators .active {
+  background-color: #fff;
+}
+
+/*#gallery-sec .carousel-indicators li {
+  margin-left: 15px;
+}*/
+#maps .carousel-indicators {
+  top: auto;
+  bottom: -50px;
+  left: 620px;
+}
+/*#maps .carousel-indicators li {
+  margin-left: 15px;
+}*/
+
+/* line 949, ../sass/screen.scss */
+.carousel-caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  background: #333333;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+/* line 960, ../sass/screen.scss */
+.carousel-caption h4,
+.carousel-caption p {
+  line-height: 20px;
+  color: #ffffff;
+}
+
+/* line 965, ../sass/screen.scss */
+.carousel-caption h4 {
+  margin: 0 0 5px;
+}
+
+/* line 969, ../sass/screen.scss */
+.carousel-caption p {
+  margin-bottom: 0;
+}
+
+/* ==========================================================================
+Helpers
+========================================================================== */
+/* line 978, ../sass/screen.scss */
+strong {
+  color: #000;
+}
+
+/* line 982, ../sass/screen.scss */
+[data-original] {
+  background: url(../img/loading.gif) no-repeat 50% 50%;
+}
+
+/* line 986, ../sass/screen.scss */
+[data-bg]:after {
+  position: absolute;
+  content: " ";
+  background: #eeeeee url(../img/loading.gif) no-repeat 50% 50%;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+/* line 996, ../sass/screen.scss */
+.progressive-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 1004, ../sass/screen.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+
+/* line 1011, ../sass/screen.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/* line 1018, ../sass/screen.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 1023, ../sass/screen.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 1035, ../sass/screen.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 1044, ../sass/screen.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* ==========================================================================
+Print styles
+========================================================================== */
+@media print {
+  /* line 1054, ../sass/screen.scss */
+  * {
+    background: transparent !important;
+    color: black !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 1062, ../sass/screen.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 1066, ../sass/screen.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 1070, ../sass/screen.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+  * Don't show links for images, or javascript/internal links
+  */
+  /* line 1080, ../sass/screen.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 1085, ../sass/screen.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999999;
+    page-break-inside: avoid;
+  }
+
+  /* line 1090, ../sass/screen.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  /* line 1095, ../sass/screen.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 1099, ../sass/screen.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 1109, ../sass/screen.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 1115, ../sass/screen.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
+.cssda {
+  position: relative;
+  top: 275px;
+  width: 68px;
+  height: 95px;
+  z-index: 99999;
+}
