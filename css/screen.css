@@ -1022,10 +1022,10 @@ div.headerbot img {
 
 .carousel-container {
   position: absolute;
-  width: 24.5%;
+  width: 28.5%;
   height: 1.328%;
   top: 94%;
-  left: 37.75%;
+  left: 35.75%;
 }
 
 /* line 923, ../sass/screen.scss */
@@ -1040,7 +1040,7 @@ div.headerbot img {
 .carousel-indicators li {
   display: block;
   float: left;
-  width: 3.189%;
+  width: 2.9%;
   height: 100%;
   margin-left: 4.783%;
   text-indent: -999px;
