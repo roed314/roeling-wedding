@@ -1,5 +1,6 @@
 # mac hidden files
 .DS_Store
+*~
 
 img/activities/originals
 img/bg/header-orig.jpg
