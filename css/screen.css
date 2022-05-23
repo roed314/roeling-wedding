@@ -486,6 +486,42 @@ section.anchor {
 .activity-pic {
   height: 300px;
 }
+.sched {
+  margin: 10px;
+}
+.schedule-list h4 {
+  margin-top: 50px!important;
+}
+.schedule-pic {
+  height: 50px;
+  border-radius: 2px;
+}
+.stime {
+  display: inline-block;
+  width: 20%;
+}
+.sdesc {
+  display: inline-block;
+}
+button.like-link {
+  background: none!important;
+  border: none!important;
+  padding: 0!important;
+  cursor: pointer;
+
+  color: {{color.col_link}};
+  text-decoration: none;
+  font-family: sans-serif;
+  min-width: 0px;
+  font-size: 15px;
+}
+button.like-link:visited {
+  color: {{color.a_text_visited}};
+}
+button.like-link:hover {
+  color: {{color.a_text_hover}};
+  background: {{color.a_background_hover}};
+}
 venue-pic
 .caption {
   margin: 10px;
